@@ -1,0 +1,70 @@
+body {
+  font-family: Roboto;
+  font-weight: 500;
+  background-color: rgba(81, 134, 225, 0.845);
+
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+sup {
+  font-size: 25px;
+}
+.size {
+  font-weight: 500;
+  font-size: 40px;
+  font-style: normal;
+}
+.page-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+  height: 1000px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  height: 450px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 10px 50px 10px;
+
+  border-radius: 10px;
+  width: 450px;
+  height: 400px;
+}
+
+.card:hover {
+  background: rgba(202, 207, 207, 0.829);
+}
+
+.image {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+}
+.discription {
+  margin-top: 0px;
+}
+.title {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  position: 0;
+  letter-spacing: 0.2em;
+}
+
+h2 {
+  color: rgb(93, 48, 208);
+}
