@@ -2,12 +2,11 @@ body {
   font-family: Roboto;
   font-weight: 500;
   background-color: rgba(81, 134, 225, 0.845);
-
   margin: 0;
 }
 a {
   text-decoration: none;
-  color: grey;
+  color: rgb(158, 152, 152);
 }
 
 sup {
@@ -22,7 +21,6 @@ sup {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 
   margin: 0;
   padding: 0;
@@ -31,7 +29,7 @@ sup {
 .box {
   display: flex;
   align-items: center;
-  background-color: aliceblue;
+  background-color: rgb(240, 248, 255);
   padding: 20px;
   border-radius: 10px;
   height: 450px;
@@ -39,32 +37,41 @@ sup {
 .card {
   display: flex;
   flex-direction: column;
-  margin: 50px 10px 50px 10px;
-
   border-radius: 10px;
   width: 450px;
-  height: 400px;
+  padding: 20px;
+  align-items: center;
+  padding-top: 60px;
 }
 
 .card:hover {
-  background: rgba(202, 207, 207, 0.829);
+  background: #efefef;
 }
-
 .image {
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 40px;
+  width: 200px;
+  height: 100px;
 }
-.discription {
+.description {
   margin-top: 0px;
+  padding-left: 100px;
+  padding-right: 106px;
+  text-align: center;
 }
 .title {
   margin-top: 30px;
   margin-bottom: 25px;
-  position: 0;
   letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {
   color: rgb(93, 48, 208);
+}
+
+.price {
+  font-weight: bold;
+  color: rgb(93, 48, 208);
+  margin-top: 40px;
+  text-align: center;
 }
