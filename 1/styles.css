@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  font-weight: 500;
+
+  background-color: rgba(81, 134, 225, 0.845);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(158, 152, 152);
+}
+
+sup {
+  font-size: 25px;
+}
+
+.size {
+  font-weight: 500;
+  font-size: 40px;
+  font-style: normal;
+}
+
+.page-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  background-color: rgb(240, 248, 255);
+  padding: 20px;
+  border-radius: 10px;
+  height: 470px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 450px;
+  height: 400px;
+  padding: 10px;
+  align-items: center;
+}
+
+.card:hover {
+  background: rgb(186, 189, 191);
+}
+
+.image {
+  width: 200px;
+  height: 100px;
+}
+
+.description {
+  height: 80px;
+  margin-top: 40px;
+  padding-left: 92px;
+  padding-right: 92px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 25px;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(93, 48, 208);
+}
+
+.price {
+  font-weight: bold;
+  color: rgb(93, 48, 208);
+  text-align: center;
+}
