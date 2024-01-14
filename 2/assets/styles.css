@@ -8,9 +8,10 @@
 }
 
 .payment {
-  display: grid;
+  display: flex;
+
   justify-content: center;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 .payment__body {
@@ -36,6 +37,7 @@
 
 .header__dots-nav {
   position: absolute;
+  gap: 4px;
 
   display: flex;
   top: 144px;
@@ -44,10 +46,9 @@
 }
 
 .header__dots {
-  display: block;
+  display: flex;
   background-color: #dedede;
 
-  margin: 4px;
   width: 5px;
   height: 5px;
   border-radius: 50%;
@@ -111,7 +112,7 @@
   height: 40px;
 }
 
-.button__arow {
+.button__arrow {
   position: relative;
 
   margin-left: 4px;
@@ -134,15 +135,15 @@
   width: 350px;
   padding: 0;
   border: none;
-  border-radius: 0px 0px 5px 5px;
 }
 
 .payment__button-link:hover {
   background: #5080df;
 }
+
 .payment__button-link:active {
-  transform: scaleY(0.95);
+  transform: scaleY(0.97);
   transform-origin: bottom;
-  width: 349.5px;
+  width: 99.9%;
   height: 51px;
 }
