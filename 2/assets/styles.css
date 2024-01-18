@@ -35,7 +35,7 @@
   font-size: 20px;
 }
 
-.header__dots-nav {
+.dots {
   position: absolute;
   gap: 4px;
 
@@ -45,7 +45,7 @@
   height: 18px;
 }
 
-.header__dots {
+.dots__nav {
   display: flex;
   background-color: #dedede;
 
@@ -54,7 +54,7 @@
   border-radius: 50%;
 }
 
-.header__dots_action {
+.dots__nav_action {
   background-color: #aaaaaa;
 }
 
@@ -145,5 +145,6 @@
   transform: scaleY(0.97);
   transform-origin: bottom;
   width: 99.9%;
+
   height: 51px;
 }
