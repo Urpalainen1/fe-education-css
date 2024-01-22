@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/base.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
       rel="stylesheet"
@@ -12,30 +11,32 @@
 
     <title>Document</title>
   </head>
-  <body class="background">
+  <body class="page">
     <main class="card">
       <div class="card__body">
-        <header class="card__header">
-          <h1 class="card__header__title">SimleWheels</h1>
-          <a class="card__header__link" href="#">
-            <img
-              class="card__header__link__logo"
-              src="img/Ellipse 4.svg"
-              alt=""
-            />
-          </a>
-        </header>
-        <p class="card__order">
-          Thanks for your order #2357654, your package will be on it's way
-          shortly.
-        </p>
-        <div class="card__table">
-          <span class="card__table__list">Chapelli Vintage Single Speed</span>
-          <span class="card__table__price"> $317</span>
-          <span class="card__table__list">Castelli Arenberg Gel Gloves</span
-          ><span class="card__table__price"> $39</span>
-          <span class="card__table__list_total card-menu__list">Total</span
-          ><span class="card__table__price">$356</span>
+        <div class="card__content">
+          <header class="card__header">
+            <h1 class="card__title">SimleWheels</h1>
+            <a class="card__link" href="#">
+              <img
+                class="card__logo"
+                src="styles/img/account 1.svg"
+                alt="logo"
+              />
+            </a>
+          </header>
+          <div class="card__order">
+            Thanks for your order #2357654, your package will be on it's way
+            shortly.
+          </div>
+          <div class="card__table">
+            <span class="card__list">Chapelli Vintage Single Speed</span>
+            <span class="card__price"> $317</span>
+            <span class="card__list">Castelli Arenberg Gel Gloves</span
+            ><span class="card__price"> $39</span>
+            <span class="card__list_total card__list">Total</span>
+            <span class="card__price">$356</span>
+          </div>
         </div>
       </div>
     </main>
