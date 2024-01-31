@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body class="page">
+    <header class="title">
+      <a class="title__link" href="#">
+      <div class="title__point"></div>
+      <span class="title__name">MARK ZUCKERBER</span>
+      </a>
+      <button class="title__close" >
+        <img class="title__close_img" src="img/close 1.svg" alt="">
+      </button>
+    </header>
+    <main class="page__body">
+      <div class="page__date">
+        <span class="page__date_day">Today</span>
+      </div>
+      <div class="page__scroll">
+        <div class="message">
+          <div class="message__row message__row_im">
+            <span class="message__time"> 10:53 </span>
+            <section class="message__content message__content_im">
+              <img class="message__vector" src="img/Vector 1.svg" />
+              <span class="message__text"> Hi, Mark! I made a new design for Messenger App. </section>
+          </div>
+          <div class="message__row message__row_him">
+            <span class="message__time message__time_him">10:57</span>
+            <section class="message__content message__content_him">
+              <span class="message__text">
+                Yo! Send it to my assistant and we'll review it during the year.
+              </span>
+            </section>
+          </div>
+          <div class="message__row message__row_im">
+            <span class="message__time">11:03</span>
+            <section class="message__content message__content_im">
+              <img class="message__vector" src="img/Vector 1.svg" />
+              <span class="message__text"> But Mark...</span>
+            </section>
+          </div>
+          <div class="message_row message__row_block">
+            <section class="message__content message__content_him message__content_block"> 
+              <span class="message__text"> You were blocked by the user. </span>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div class="chat">
+        
+        <form action="#">
+          <textarea
+            placeholder="Enter your message"
+            name="chat"
+            id="chat"
+            cols="30"
+            rows="1"
+          > </textarea>
+        </form>
+        <input type="submit" value="Send" />
+      </div>
+    </main>
+  </body>
+</html>
