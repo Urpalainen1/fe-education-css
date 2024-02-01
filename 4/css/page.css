@@ -1,0 +1,69 @@
+:root {
+  --width: 400px;
+  --color: #fff;
+  --font-family: Roboto;
+}
+
+.page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(0deg, #8cacc8 0%, #cddce7 100%);
+
+  margin-top: 200px;
+}
+
+.page__body {
+  color: #000000;
+
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: var(--color);
+  width: var(--width);
+  height: 407px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page__date {
+  background-image: url(/img/Line\ 4.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+
+  text-transform: uppercase;
+  color: #ddd;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+
+  padding-top: 20px;
+
+  height: 14px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
+
+.page__scroll {
+  width: var(--width);
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.page__date_day {
+  background-color: var(--color);
+  padding-left: 10px;
+  padding-right: 10px;
+}

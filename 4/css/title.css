@@ -1,0 +1,40 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: var(--width);
+  background: #6a97d8;
+}
+
+.title__name {
+  padding-left: 10px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.title__point {
+  margin-left: 20px;
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.title__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.title__close {
+  background: #6a97d8;
+  border: none;
+  padding: 0px;
+  margin-top: 4px;
+  margin-right: 20px;
+}

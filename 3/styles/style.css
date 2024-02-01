@@ -17,7 +17,7 @@
 .card__body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
-  margin-top: 250px;
+  margin-top: 150px;
   border-radius: 4px;
   background: #fff;
 
@@ -107,4 +107,6 @@
   text-transform: uppercase;
   font-size: var(--font-size);
   font-weight: var(--font-weight);
+  line-height: normal;
+  font-style: normal;
 }
